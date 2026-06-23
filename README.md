@@ -31,12 +31,22 @@ You can customize the extension via your VS Code Settings (`settings.json`):
 
 ## Installation
 
-1. Package the extension into a `.vsix` file:
+### Option 1: Install via Terminal (Quickest)
+1. Build and package the extension:
    ```bash
    npx @vscode/vsce package
    ```
-2. Open VS Code or Cursor.
-3. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
+2. Install the generated package directly into VS Code:
+   ```bash
+   code --install-extension typing-pookie-0.1.0.vsix
+   ```
+
+### Option 2: Install via VS Code UI
+1. Build and package the extension:
+   ```bash
+   npx @vscode/vsce package
+   ```
+2. Open VS Code.
+3. Open the Command Palette (`Ctrl+Shift+P`).
 4. Select **Extensions: Install from VSIX...**.
 5. Select the generated `typing-pookie-0.1.0.vsix` file.
-6. The cat will appear at the end of your current line on any active text document!
