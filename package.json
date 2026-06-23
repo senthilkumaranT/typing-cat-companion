@@ -4,6 +4,7 @@
   "description": "A cute pookie cat companion that sits at the end of your active line. It runs while you type and sleeps when you stop coding.",
   "version": "0.1.0",
   "publisher": "antigravity",
+  "icon": "media/icon.png",
   "engines": {
     "vscode": "^1.74.0"
   },
