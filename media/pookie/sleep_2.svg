@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 16" width="28" height="16">
+    <!-- Zzz -->
+    <text x="21" y="5" font-family="sans-serif" font-size="3.5" fill="#F1F2F6" font-weight="bold" opacity="0.8">z</text>
+    <text x="23" y="2.8" font-family="sans-serif" font-size="4.5" fill="#F1F2F6" font-weight="bold" opacity="0.6">Z</text>
+
+    <!-- Tail -->
+    <path d="M 6 10.2 C 4 10.2, 4 14.2, 9 14.2 C 11 14.2, 11 13.2, 11 13.2" fill="none" stroke="#2C3E50" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M 6 10.2 C 4 10.2, 4 14.2, 9 14.2 C 11 14.2, 11 13.2, 11 13.2" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Body (slightly flattened/breathing) -->
+    <ellipse cx="11.5" cy="10.2" rx="5.6" ry="4.3" fill="#FFFFFF" stroke="#2C3E50" stroke-width="1" />
+    
+    <!-- Stripe on body -->
+    <path d="M 10 7 Q 11 9 10.5 11" fill="none" stroke="#F1F2F6" stroke-width="1" stroke-linecap="round" />
+    
+    <!-- Head -->
+    <circle cx="16.5" cy="9.7" r="3.8" fill="#FFFFFF" stroke="#2C3E50" stroke-width="1" />
+    
+    <!-- Ears -->
+    <polygon points="13.5,6.7 14.5,3.7 16,6.2" fill="#FFFFFF" stroke="#2C3E50" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="13.9,6.4 14.6,4.4 15.5,6.0" fill="#FFD2D2" />
+    
+    <polygon points="16,6.2 17.5,3.7 18.5,6.7" fill="#FFFFFF" stroke="#2C3E50" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="16.5,6.0 17.4,4.4 18.1,6.4" fill="#FFD2D2" />
+    
+    <!-- Sleeping Eyes -->
+    <path d="M 15.2 10 Q 16 10.7 16.5 10" fill="none" stroke="#2C3E50" stroke-width="0.8" stroke-linecap="round" />
+    <path d="M 17.2 10 Q 18 10.7 18.5 10" fill="none" stroke="#2C3E50" stroke-width="0.8" stroke-linecap="round" />
+    
+    <!-- Nose -->
+    <polygon points="16.7,10.8 17.1,10.8 16.9,11.1" fill="#FFD2D2" />
+
+    <!-- Cute Pink Bow -->
+    <g id="pookie-bow" transform="translate(14.8, 6.2)">
+        <!-- Left loop -->
+        <path d="M 0 0 C -0.5 -1, -2 -1, -2 0 C -2 1, -0.5 1, 0 0 Z" fill="#FF8DA1" stroke="#2C3E50" stroke-width="0.4" stroke-linejoin="round" />
+        <!-- Right loop -->
+        <path d="M 0 0 C 0.5 -1, 2 -1, 2 0 C 2 1, 0.5 1, 0 0 Z" fill="#FF8DA1" stroke="#2C3E50" stroke-width="0.4" stroke-linejoin="round" />
+        <!-- Ribbon tail left -->
+        <path d="M -0.4 0.4 L -1.0 1.6 L -0.5 1.5 L 0 0.4" fill="#FF6B8B" stroke="#2C3E50" stroke-width="0.3" stroke-linejoin="round" />
+        <!-- Ribbon tail right -->
+        <path d="M 0.4 0.4 L 1.0 1.6 L 0.5 1.5 L 0 0.4" fill="#FF6B8B" stroke="#2C3E50" stroke-width="0.3" stroke-linejoin="round" />
+        <!-- Center knot -->
+        <circle cx="0" cy="0" r="0.6" fill="#FF6B8B" stroke="#2C3E50" stroke-width="0.4" />
+    </g>
+  </svg>

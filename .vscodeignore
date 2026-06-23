@@ -1,0 +1,4 @@
+.git/**
+.vscode/**
+.vscodeignore
+generate_assets.js

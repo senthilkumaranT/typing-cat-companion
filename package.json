@@ -1,0 +1,59 @@
+{
+  "name": "typing-pookie",
+  "displayName": "Typing Pookie Companion",
+  "description": "A cute pookie cat companion that sits at the end of your active line. It runs while you type and sleeps when you stop coding.",
+  "version": "0.1.0",
+  "publisher": "antigravity",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antigravity/typing-cat.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "Typing Pookie Companion",
+      "properties": {
+        "typingCat.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable the Typing Cat companion."
+        },
+        "typingCat.idleTimeout": {
+          "type": "integer",
+          "default": 1000,
+          "description": "Time in milliseconds before the cat falls asleep after you stop typing."
+        },
+        "typingCat.animationSpeed": {
+          "type": "integer",
+          "default": 150,
+          "description": "Speed of the running animation (milliseconds per frame)."
+        },
+        "typingCat.catColor": {
+          "type": "string",
+          "default": "pookie",
+          "enum": [
+            "orange",
+            "black",
+            "white",
+            "gray",
+            "pookie"
+          ],
+          "description": "The color theme of your cat companion."
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0"
+  }
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 16" width="28" height="16">
+    <!-- Tail -->
+    <path d="M 6.5 8 C 4.5 8, 4 4.5, 3 6" fill="none" stroke="#1E272E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 6.5 8 C 4.5 8, 4 4.5, 3 6" fill="none" stroke="#2D3436" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Back Leg 1 (tucked under forward) -->
+    <line x1="8.5" y1="10.5" x2="10" y2="13.2" stroke="#1E272E" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="8.5" y1="10.5" x2="10" y2="13.2" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+
+    <!-- Back Leg 2 (tucked under back) -->
+    <line x1="9.5" y1="10.5" x2="8" y2="13" stroke="#1E272E" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="9.5" y1="10.5" x2="8" y2="13" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+
+    <!-- Body (contracted) -->
+    <ellipse cx="13" cy="8.2" rx="5.3" ry="4" fill="#2D3436" stroke="#1E272E" stroke-width="1" />
+    <ellipse cx="13.8" cy="9.2" rx="3.3" ry="2.5" fill="#FFFFFF" />
+    
+
+    <!-- Front Leg 1 (tucked backward) -->
+    <line x1="15.5" y1="10.5" x2="14" y2="13.2" stroke="#1E272E" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="15.5" y1="10.5" x2="14" y2="13.2" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+
+    <!-- Front Leg 2 (tucked forward) -->
+    <line x1="16.5" y1="10" x2="18" y2="12.8" stroke="#1E272E" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="16.5" y1="10" x2="18" y2="12.8" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+
+    <!-- Head -->
+    <circle cx="17.8" cy="6.2" r="3.5" fill="#2D3436" stroke="#1E272E" stroke-width="1" />
+    
+    <!-- Ears -->
+    <polygon points="15.3,3.7 15.8,0.7 17.3,3.2" fill="#2D3436" stroke="#1E272E" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="17.3,3.2 18.8,0.7 19.3,3.7" fill="#2D3436" stroke="#1E272E" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="15.8,3.2 16.1,1.5 16.9,3.0" fill="#FF8080" />
+    <polygon points="17.7,3.0 18.5,1.5 18.8,3.2" fill="#FF8080" />
+
+    <!-- Eyes -->
+    <circle cx="17.6" cy="5.9" r="0.6" fill="#FFFFFF" />
+    <circle cx="19.1" cy="5.9" r="0.6" fill="#FFFFFF" />
+    
+    <!-- Nose -->
+    <polygon points="18.3,6.5 18.7,6.5 18.5,6.7" fill="#FF8080" />
+  </svg>
